@@ -1,0 +1,46 @@
+casa
+48251
+Eduardo Pelegrineti Targueta
+4 - qtd quartos
+9 - qtd vagas
+3 - qtd pavimentos
+688.3 - area pavimento
+310 - preco m2 area pavimento
+309.2 - area livre
+3945 - preco m2 area livre
+
+310 * 688.3 * 3 + 3945 * 309.2
+
+
+retang
+49038
+Luiz Felipe Mota Santana
+R
+7298
+508.6
+152.6
+
+
+triang
+87190
+Pedro Francisco Iguatemy Lopes
+G
+704 - preco m2
+709.5
+160.9
+
+preço = preçoMetroQuadradoTerreno * área * fatorMultiplicativo
+preco = 704 * ((709.5 * 160.9)/2) * 1.3
+
+
+trapez
+72649
+Marcelo Borlini Testa
+A
+2182 - preco m2
+24.0 - base1
+878.3 - base2
+370.9 - altura
+
+area = ((24.0 + 878.3)*370.9) / 2 = 167331.53499999997
+preco = 2182 * 167331.53499999997 * 0.9

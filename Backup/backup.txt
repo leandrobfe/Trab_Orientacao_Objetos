@@ -1,0 +1,41 @@
+#     def __init__(self, tipo, arg1, arg2, arg3=None):
+#         self.tipo = tipo
+#         if tipo == 'triang':
+#             self.base = arg1
+#             self.altura = arg2
+#         elif tipo is 'retang':
+#             self.lado1 = arg1
+#             self.lado2 = arg2
+#         elif tipo is 'trapez':
+#             self.base1 = arg1
+#             self.base2 = arg2
+#             self.altura = arg3
+
+#     def get_area(self):
+#         if self.tipo == 'triang':
+#             return self.base * self.altura / 2
+#         elif self.tipo is 'retang':
+#             return self.lado1 * self.lado2
+
+
+# class Circulo:
+#     pass
+
+   # formato = self.formato
+        # if self.is_retangulo():
+        #     return formato.get_area()
+        # elif self.is_triangulo():
+        #     return formato.get_area()
+        # elif format.is_trapezio():
+        #     return formato.get_area()
+        # else:
+        #     print('Formato invalido')
+
+return {"percentual_imoveis_caros": percentual_imoveis_caros,
+            "percentual_menores_argilosos": percentual_menores_argilosos,
+            "area_limite": area_limite,
+            "preco_limite": preco_limite,
+            "i": i,
+            "j": j,
+            "k": k
+            }
